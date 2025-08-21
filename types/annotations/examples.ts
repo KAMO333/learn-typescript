@@ -54,8 +54,12 @@ const constantName: type = value;
 
 let greeting: (name: string) => string;
 
-greeting = function (name: string) {
-  return `Hi ${name}`;
+// greeting = function (name: string) {
+//   return `Hi ${name}`;
+// };
+
+greeting = function () {
+  console.log("Hello");
 };
 
-console.log(greeting("Kamogelo"));
+console.log(greeting());

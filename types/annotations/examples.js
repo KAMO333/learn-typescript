@@ -35,9 +35,12 @@ const constantName: type = value;
 //   age: 25,
 // };
 // console.log(person);
-// functions
+// type functions
 var greeting;
-greeting = function (name) {
-    return "Hi ".concat(name);
+// greeting = function (name: string) {
+//   return `Hi ${name}`;
+// };
+greeting = function () {
+    console.log("Hello");
 };
-console.log(greeting("Kamogelo"));
+console.log(greeting());
