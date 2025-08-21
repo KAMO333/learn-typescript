@@ -24,12 +24,20 @@ const constantName: type = value;
 // Type annotation examples
 // USAGE:
 // let arrayName: type[];
-var names = ["John", "Jane", "Peter", "David", "Mary"];
-console.log(names);
-
-var person;
-person = {
-  name: "John",
-  age: 25,
+// let names: string[] = ["John", "Jane", "Peter", "David", "Mary"];
+// console.log(names);
+// let person: {
+//   name: string;
+//   age: number;
+// };
+// person = {
+//   name: "John",
+//   age: 25,
+// };
+// console.log(person);
+// functions
+var greeting;
+greeting = function (name) {
+    return "Hi ".concat(name);
 };
-console.log(person);
+console.log(greeting("Kamogelo"));

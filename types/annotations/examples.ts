@@ -34,18 +34,28 @@ const constantName: type = value;
 // USAGE:
 // let arrayName: type[];
 
-let names: string[] = ["John", "Jane", "Peter", "David", "Mary"];
+// let names: string[] = ["John", "Jane", "Peter", "David", "Mary"];
 
-console.log(names);
+// console.log(names);
 
-let person: {
-  name: string;
-  age: number;
+// let person: {
+//   name: string;
+//   age: number;
+// };
+
+// person = {
+//   name: "John",
+//   age: 25,
+// };
+
+// console.log(person);
+
+// type functions
+
+let greeting: (name: string) => string;
+
+greeting = function (name: string) {
+  return `Hi ${name}`;
 };
 
-person = {
-  name: "John",
-  age: 25,
-};
-
-console.log(person);
+console.log(greeting("Kamogelo"));
