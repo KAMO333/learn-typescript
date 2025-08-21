@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/**
+/** USAGE:
 let variableName: type;
 let variableName: type = value;
 const constantName: type = value;
@@ -14,8 +14,22 @@ const constantName: type = value;
 // counter = "Hello";
 // console.log(counter); // compile error
 // PRIMITIVE ANNOTATIONS
-var name = "John";
-var age = 25;
-var counter = 1;
-var active = true;
-console.log("I'm ".concat(name, " and am ").concat(age, " old and am i active? ").concat(active, " for how this long ").concat(counter));
+// let name: string = "John";
+// let age: number = 25;
+// let counter: number = 1;
+// let active: boolean = true;
+// console.log(
+//   `I'm ${name} and am ${age} old and am i active? ${active} for how this long ${counter}`
+// );
+// Type annotation examples
+// USAGE:
+// let arrayName: type[];
+var names = ["John", "Jane", "Peter", "David", "Mary"];
+console.log(names);
+
+var person;
+person = {
+  name: "John",
+  age: 25,
+};
+console.log(person);
