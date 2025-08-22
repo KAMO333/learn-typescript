@@ -1,3 +1,5 @@
+export {};
+
 // TYPE ANNOTATION = Explicitly defining the type
 
 let counter: number;
@@ -7,3 +9,17 @@ let counter: number;
 let newCounter = 0;
 
 console.log(typeof newCounter);
+
+// Another example of type inference
+
+// this is:
+// function increment(counter: number) {
+//   return counter++;
+// }
+
+// same as:
+function increment(counter: number): number {
+  return counter++;
+}
+
+console.log(typeof increment(5));
