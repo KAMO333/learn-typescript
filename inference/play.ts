@@ -8,7 +8,7 @@ let counter: number;
 
 let newCounter = 0;
 
-console.log(typeof newCounter);
+// console.log(typeof newCounter); // "number"
 
 // Another example of type inference
 
@@ -18,8 +18,14 @@ console.log(typeof newCounter);
 // }
 
 // same as:
-function increment(counter: number): number {
-  return counter++;
-}
+// function increment(counter: number): number {
+//   return counter++;
+// }
 
-console.log(typeof increment(5));
+// console.log(typeof increment(5));
+
+// best common type algorithms
+
+let items = [1, 2, 3, null];
+
+console.log(typeof items);
