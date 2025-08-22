@@ -40,7 +40,7 @@ var greeting;
 // greeting = function (name: string) {
 //   return `Hi ${name}`;
 // };
-greeting = function () {
-    console.log("Hello");
+greeting = function (name) {
+    return "Hello ".concat(name);
 };
-console.log(greeting());
+console.log(greeting("John"));

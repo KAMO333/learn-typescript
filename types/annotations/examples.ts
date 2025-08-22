@@ -58,8 +58,8 @@ let greeting: (name: string) => string;
 //   return `Hi ${name}`;
 // };
 
-greeting = function () {
-  console.log("Hello");
+greeting = function (name: string) {
+  return `Hello ${name}`;
 };
 
-console.log(greeting());
+console.log(greeting("John"));
