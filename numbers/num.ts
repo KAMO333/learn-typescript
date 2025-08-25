@@ -40,3 +40,11 @@ let anotherHex: number = 0x20;
 console.log("Hexadecimal numbers......");
 console.log(hex);
 console.log(anotherHex);
+
+// big-integer numbers
+let big: bigint = 100n;
+let anotherBig: bigint = 200n;
+
+console.log("Big integers......");
+console.log(big);
+console.log(anotherBig);

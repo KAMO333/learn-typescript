@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /** USAGE:
 let variableName: type;
 let variableName: type = value;
@@ -36,11 +34,12 @@ const constantName: type = value;
 // };
 // console.log(person);
 // type functions
-var greeting;
+let greeting;
 // greeting = function (name: string) {
 //   return `Hi ${name}`;
 // };
 greeting = function (name) {
-    return "Hello ".concat(name);
+    return `Hello ${name}`;
 };
 console.log(greeting("John"));
+export {};

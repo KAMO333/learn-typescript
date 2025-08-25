@@ -1,3 +1,5 @@
+export {};
+
 let message: string = "Hello, TypeScript!";
 
 // create a new heading 1 element

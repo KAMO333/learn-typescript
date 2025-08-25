@@ -1,31 +1,36 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // floating-point-value
-var price;
+let price;
 price = 15;
 console.log(price);
 // decimal-value
-var counter = 0;
-var x = 100, y = 200;
+let counter = 0;
+let x = 100, y = 200;
 console.log("decimal numbers......");
 console.log(counter);
 console.log(x);
 console.log(y);
 // binary-numbers
-var bin = 4;
-var anotherBin = 2;
+let bin = 0b100;
+let anotherBin = 0b010;
 console.log("binary numbers......");
 console.log(bin);
 console.log(anotherBin);
 // Octal Numbers
-var oct = 8;
-var anotherOct = 16;
+let oct = 0o10;
+let anotherOct = 0o20;
 console.log("Octal numbers......");
 console.log(oct);
 console.log(anotherOct);
 // hexadecimal numbers
-var hex = 0x10;
-var anotherHex = 0x20;
+let hex = 0x10;
+let anotherHex = 0x20;
 console.log("Hexadecimal numbers......");
 console.log(hex);
 console.log(anotherHex);
+// big-integer numbers
+let big = 100n;
+let anotherBig = 200n;
+console.log("Big integers......");
+console.log(big);
+console.log(anotherBig);
+export {};

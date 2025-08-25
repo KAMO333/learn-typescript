@@ -1,3 +1,5 @@
+export {};
+
 // TYPESCRIPT SOLVES THE DIFFERENT TYPES USED IN JS EARLY BUT DOES NOT STOP PRODUCING JS,
 // EVEN WITH THIS ERROR AT COMPILATION
 
@@ -23,4 +25,4 @@ const showProduct = (name: string, price: number) => {
 };
 
 const product = getProduct(1);
-showProduct(product.price, product.name);
+showProduct(product.name, product.price);
