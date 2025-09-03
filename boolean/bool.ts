@@ -21,3 +21,9 @@ console.log(result); // false
 // OR operator
 let results = completed || hasError;
 console.log(results); // true
+
+function changeStatus(status: boolean): boolean {
+  return !status;
+}
+
+changeStatus(true);

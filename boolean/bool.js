@@ -17,3 +17,7 @@ console.log(result); // false
 // OR operator
 var results = completed || hasError;
 console.log(results); // true
+function changeStatus(status) {
+    return !status;
+}
+changeStatus(true);
