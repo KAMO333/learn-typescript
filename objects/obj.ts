@@ -11,14 +11,28 @@
 
 // // console.log(employee.hireDate);
 
+// let employee: {
+//   firstName: string;
+//   lastName: string;
+//   age: number;
+//   jobTitle: string;
+// };
+
+// employee = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   age: 25,
+//   jobTitle: "Web Developer",
+// };
+
+// console.log(employee);
+
 let employee: {
   firstName: string;
   lastName: string;
   age: number;
   jobTitle: string;
-};
-
-employee = {
+} = {
   firstName: "John",
   lastName: "Doe",
   age: 25,
