@@ -16,9 +16,9 @@ enum Month {
 function isItSummer(month: Month) {
   let isSummer: boolean;
   switch (month) {
-    case Month.Jun:
-    case Month.Jul:
-    case Month.Aug:
+    case Month.Dec:
+    case Month.Jan:
+    case Month.Feb:
       isSummer = true;
       break;
     default:
@@ -28,5 +28,8 @@ function isItSummer(month: Month) {
   return isSummer;
 }
 
-console.log(isItSummer(Month.Jun)); // true
-console.log(isItSummer(Month.Dec)); // false
+console.log(isItSummer(1)); // true
+console.log(isItSummer(11)); // true
+console.log(isItSummer(5)); // false
+
+// Enums are a way of giving more friendly names to sets of numeric values.
