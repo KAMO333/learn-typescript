@@ -1,3 +1,6 @@
-var skill;
-skill = ["Programming", 5];
-console.log("Skill: ".concat(skill[0], ", Level: ").concat(skill[1]));
+// Example of a tuple in TypeScript
+// let skill: [string, number];
+// // skill = ["Programming", 5];
+// console.log(`Skill: ${skill[0]}, Level: ${skill[1]}`);
+var color = [255, 0, 0];
+console.log("RGB Color: (".concat(color[0], ", ").concat(color[1], ", ").concat(color[2], ")"));
