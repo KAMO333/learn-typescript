@@ -8,7 +8,11 @@
 // const total = result.reduce((a: number, b: number) => a + b, 0);
 // console.log(total);
 // json may come from a third-party API
-var json = "{\"latitude\": 10.11, \"longitude\":12.12}";
+// const json = `{"latitude": 10.11, "longitude":12.12}`;
 // parse JSON to find location
-var currentLocation = JSON.parse(json);
-console.log(currentLocation.x);
+// const currentLocation = JSON.parse(json);
+// console.log(currentLocation.x);
+var result;
+result = 10.123;
+console.log(result.toFixed());
+result.willExist(); // No compile-time error, but runtime error
