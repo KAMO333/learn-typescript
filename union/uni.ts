@@ -32,3 +32,15 @@
 
 // console.log(add(true, false)); // 0
 // console.log(add("Hello, ", "world!")); // "Hello, world!"
+
+function add(a: number | string, b: number | string): number | string {
+  if (typeof a === "number" && typeof b === "number") {
+    return a + b;
+  }
+  if (typeof a === "string" && typeof b === "string") {
+    return a.concat(b);
+  }
+  throw new Error("Parameters must be numbers or strings");
+}
+
+// union allows for more flexible function parameters
