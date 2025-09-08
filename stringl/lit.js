@@ -1,0 +1,2 @@
+var click;
+click = "click";
